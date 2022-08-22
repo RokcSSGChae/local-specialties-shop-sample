@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "strict": true,
+        "jsx": "preserve",
+        "strictNullChecks": false,
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strictPropertyInitialization": false,
+        "sourceMap": true,
+        "allowJs": true,
+        "baseUrl": "."
+    },
+    "include": ["src/**/*.ts", "src/**/*.vue"],
+    "exclude": ["dist", "node_modules", "src/**/*.json", "./babel.config.js"]
+}
